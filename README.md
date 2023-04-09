@@ -1,4 +1,4 @@
-# Extended FAID Dataset
+# Extended Flash and Ambient Illuminations Dataset
 ![teaser](./figures/dataset_teaser.jpg)
 
 We address the challenge of obtaining large-scale datasets that are appropriate for training deep networks to perform flash-related tasks in real-world scenarios. Although several small-scale datasets have been suggested in prior studies, none of them offer sufficient data to generalize to images captured in natural settings. To overcome this limitation, we combine and extend three existing datasets: The Multi-Illumination Dataset (MID), The Flash and Ambient Illuminations Dataset (FAID), and the Deep Flash Portrait Dataset (DPD). We propose a method for harmonizing and compositing portrait images from DPD onto plausible backgrounds from FAID. Additionally, we explain our procedure for performing brightness normalization to ensure consistent illumination intensity across datasets. Finally, we discuss strategies for data augmentation, including randomization of backgrounds and ambient color temperature.
